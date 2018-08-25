@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TestCMD.ServiceReference1 {
+namespace TestCMD.CalculatorService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://localhost:3591/CalculatorWebService/", ConfigurationName="ServiceReference1.CalculatorWebServiceSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://localhost:3591/CalculatorWebService/", ConfigurationName="CalculatorService.CalculatorWebServiceSoap")]
     public interface CalculatorWebServiceSoap {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://localhost:3591/CalculatorWebService/Add", ReplyAction="*")]
@@ -29,12 +29,12 @@ namespace TestCMD.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface CalculatorWebServiceSoapChannel : TestCMD.ServiceReference1.CalculatorWebServiceSoap, System.ServiceModel.IClientChannel {
+    public interface CalculatorWebServiceSoapChannel : TestCMD.CalculatorService.CalculatorWebServiceSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CalculatorWebServiceSoapClient : System.ServiceModel.ClientBase<TestCMD.ServiceReference1.CalculatorWebServiceSoap>, TestCMD.ServiceReference1.CalculatorWebServiceSoap {
+    public partial class CalculatorWebServiceSoapClient : System.ServiceModel.ClientBase<TestCMD.CalculatorService.CalculatorWebServiceSoap>, TestCMD.CalculatorService.CalculatorWebServiceSoap {
         
         public CalculatorWebServiceSoapClient() {
         }

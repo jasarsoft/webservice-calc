@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="bsmyNYqhZjpjrlXJfkG3J6Yk4lU=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="9WWyRjpLN5nL6928CcQ8+WU+oK4=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="CalculatorWebServiceSoap">
       <properties>
@@ -112,7 +112,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="CalculatorWebServiceSoap" contract="ServiceReference1.CalculatorWebServiceSoap" bindingType="basicHttpBinding" address="http://localhost:3591/CalculatorWebService.asmx" bindingConfiguration="CalculatorWebServiceSoap">
+    <endpoint name="CalculatorWebServiceSoap" contract="CalculatorService.CalculatorWebServiceSoap" bindingType="basicHttpBinding" address="http://localhost:3591/CalculatorWebService.asmx" bindingConfiguration="CalculatorWebServiceSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://localhost:3591/CalculatorWebService.asmx</serializedValue>
@@ -127,7 +127,7 @@
           <serializedValue>CalculatorWebServiceSoap</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>ServiceReference1.CalculatorWebServiceSoap</serializedValue>
+          <serializedValue>CalculatorService.CalculatorWebServiceSoap</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
