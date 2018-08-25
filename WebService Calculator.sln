@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService Calculator", "WebService Calculator\WebService Calculator.csproj", "{155889EF-F584-413B-9505-5CB0FD8329B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCMD", "TestCMD\TestCMD.csproj", "{9ACBBC80-E4A1-4BC3-AB8E-857FCA5C241C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{155889EF-F584-413B-9505-5CB0FD8329B1} = {155889EF-F584-413B-9505-5CB0FD8329B1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{155889EF-F584-413B-9505-5CB0FD8329B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155889EF-F584-413B-9505-5CB0FD8329B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155889EF-F584-413B-9505-5CB0FD8329B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACBBC80-E4A1-4BC3-AB8E-857FCA5C241C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACBBC80-E4A1-4BC3-AB8E-857FCA5C241C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACBBC80-E4A1-4BC3-AB8E-857FCA5C241C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACBBC80-E4A1-4BC3-AB8E-857FCA5C241C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
