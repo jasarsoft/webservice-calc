@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WebFormMain.aspx" />
     <None Include="Service References\CalculatorService\CalculatorWebService.disco" />
     <None Include="Service References\CalculatorService\configuration91.svcinfo" />
     <None Include="Service References\CalculatorService\configuration.svcinfo" />
@@ -77,6 +78,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormMain.aspx.cs">
+      <DependentUpon>WebFormMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormMain.aspx.designer.cs">
+      <DependentUpon>WebFormMain.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
